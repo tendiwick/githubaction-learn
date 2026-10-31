@@ -3,7 +3,7 @@ import express from 'express';
 const app= express();
 
 app.get('/',(req,res)=>{
-    res.end("Hi this is runnig")
+    res.end("Hi this is runnig ON vercel")
 })
 
 const port= 3000;
